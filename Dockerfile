@@ -1,4 +1,4 @@
-FROM 1.16.0-alpine3.13 as builder
+ FROM golang:1.16.0-alpine3.13 as builder
 
 ENV GOPATH /go
 ENV PATH $GOPATH/bin:$PATH
